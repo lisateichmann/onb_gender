@@ -10,11 +10,11 @@ Presented at the ONBLabs symposium, November 9th 2026.
 
 Bibliographic entries have been collected as MARC21 files, transformed into tables.
 
-Timeframe (publishing year): 1858-2026.
+- Timeframe (publishing year): 1858-2026.
 
-Date extracted: 21.10.2026
+- Date extracted: 21.10.2026
 
-Scope: All translations of German fiction (all editions that have German marked as an original language, meaning the language of the original text, MARC field #41). How many translations have been collected by the ONB is not known. Data has been extracted in batches of 10.000 (limit by the ONB).
+- Scope: All translations of German fiction (all editions that have German marked as an original language, meaning the language of the original text, MARC field #41). How many translations have been collected by the ONB is not known. Data has been extracted in batches of 10.000 (limit by the ONB).
 
 Datasets from SRU search query (CSV):
 **LT_131026_onb_request_after2013_xmlresults.csv**
@@ -50,10 +50,12 @@ Install all dependencies first, then run:
    LT_131026_onb_request_before2013_xmlresults.csv
 
 4. Import both tables into OpenRefine and do the following transformations:
+
    <img width="299" height="266" alt="Screenshot 2026-11-08 at 13 53 41" src="https://github.com/user-attachments/assets/3acf9963-b9cc-4f13-824e-c1008077872d" />
+
    Export the table as CSV. This will give you: LT-301026-onb-request-reconciled.csv
 
-5. Run descriptive statistics and get visualizations:
+6. Run descriptive statistics and get visualizations:
 Run 3_onb_gender_stats.ipynb
 
 # License
